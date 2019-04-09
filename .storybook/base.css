@@ -1,0 +1,55 @@
+@import "~@ornikar/kitt/dist/kitt-default.css";
+
+@font-face {
+  font-family: Geomanist;
+  src: url("../fonts/geomanist/geomanist-medium-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-medium-webfont.woff") format("woff");
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Geomanist;
+  src: url("../fonts/geomanist/geomanist-book-webfont.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-book-webfont.woff") format("woff");
+  font-weight: 400;
+  font-display: block;
+}
+
+@font-face {
+  font-family: GeomanistHinted;
+  src: url("../fonts/geomanist/geomanist-medium-hinted.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-medium-hinted.woff") format("woff");
+  font-weight: 700;
+  font-display: block;
+}
+
+@font-face {
+  font-family: GeomanistHinted;
+  src: url("../fonts/geomanist/geomanist-book-hinted.woff2") format("woff2"),
+    url("../fonts/geomanist/geomanist-book-hinted.woff") format("woff");
+  font-weight: 400;
+  font-display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Geomanist, GeomanistHinted, sans-serif;
+}
+
+body[data-osused="windows"] {
+  font-family: GeomanistHinted, sans-serif;
+}
+
+body[data-osused="other"] {
+  font-family: Geomanist, sans-serif;
+}

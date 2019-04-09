@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Exo Ornikar : Intégration d'une modal
 
-## Available Scripts
+### ⏱ Durée
+45 minutes d'exercice + 15 minutes de discussion
 
-In the project directory, you can run:
+### 🎯 Objectif
+L'objectif de cet exercice est d'intégrer une modal, comprenant les features listées dessous, puis d'en discuter.
+Tu seras autonome, mais n'hésite pas à poser des questions au besoin pendant toute la durée de l'exercice !
 
-### `npm start`
+### ✨ Features
+Voici la liste des features à ajouter à la modal. Il n'y a pas de minimum attendu, le but est d'avoir quelque chose à montrer à la fin de l'exercice et d'en discuter.
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Principales
+- Intégration mobile
+- Header et footer optionnels
+- Stickyness des header et du footer en mobile
+- Gestion du scroll et overflow dans la modal
+- Affichage et disparition de la modal
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+#### Bonus
+- Intégration desktop
+- Disparition de la modal au "click en dehors"
+- Disparition de la modal au clavier sur la touche Echap
+- Animation de l'entrée/sortie de la modal
 
-### `npm test`
+*NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera utile.*
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 👩‍🎨 Design
+[Lien vers le design](https://projects.invisionapp.com/d/main#/projects/prototypes/17227965)
 
-### `npm run build`
+*NB: Il faut se faire un compte Invision pour pouvoir inspecter le projet*
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🏯 Structure du Projet
+```
+exo-modal
+├── .storybook
+└── src
+    ├── composants
+    │ └── Modal                   - ✍️ Composant à implémenter
+    │   ├── index.js
+    │   ├── stories.js
+    │ └── ModalLaucher            - 🔘 Composant de test qui va toggler la Modal
+    │   ├── index.js
+    │   ├── stories.js
+    ├── App.tsx
+    └── index.tsx
+```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+### 🤖 Commande
+`yarn storybook`: start Storybook
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📱 Breakpoints
+`small : min-width: 480px;`
 
-### `npm run eject`
+`medium : min-width: 768px;`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`large : min-width: 1024px;`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+`wide : min-width: 1280px;`
