@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@ornikar/kitt";
 
-export default function ModalLaucher() {
+export default function ModalLauncher() {
   return (
     <Button type="primary">
       Show Modal{" "}
