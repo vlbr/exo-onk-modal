@@ -8,6 +8,7 @@
     "@ornikar/kitt": "^16.2.0",
     "@ornikar/react-storybook": "^1.2.1",
     "@storybook/react": "^5.0.6",
+    "classnames": "^2.2.6",
     "prettier": "1.18.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
