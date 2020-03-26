@@ -1385,14 +1385,6 @@
     react-style-proptype "^3.2.2"
     react-transition-group "^2.5.0"
 
-"@ornikar/react-storybook@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@ornikar/react-storybook/-/react-storybook-1.2.1.tgz#5d96ca1070e6367b980acd059f0b0e9e829644e9"
-  integrity sha512-lgI1V0Xdp6FwNH2J5X9UdUAdYFi+45sLvXfIxvUrkErE4OborP39pkXD4p0R6/MN2frjGSyjjw13dcMDrf/kGg==
-  dependencies:
-    classnames "^2.2.6"
-    prop-types "^15.6.2"
-
 "@reach/router@^1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.2.1.tgz#34ae3541a5ac44fa7796e5506a5d7274a162be4e"

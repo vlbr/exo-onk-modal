@@ -1,5 +1,6 @@
+import React from 'react';
 import { configure, addDecorator } from '@storybook/react';
-import { GlobalDecorator } from '@ornikar/react-storybook';
+import { Typography } from '@ornikar/kitt';
 
 // automatically import all files named stories.js
 const req = require.context('../src', true, /.*\/stories\.js$/);
@@ -9,6 +10,10 @@ function loadStories() {
   require('./base.css');
   req.keys().forEach(filename => req(filename));
 }
+
+const GlobalDecorator = (storyFn) => {
+  return <Typography.div base="body">{storyFn()}</Typography.div>;
+};
 
 addDecorator(GlobalDecorator);
 

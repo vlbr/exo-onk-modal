@@ -6,7 +6,6 @@
     "@ornikar/browserslist-config": "^1.1.0",
     "@ornikar/eslint-config-react": "8.2.8",
     "@ornikar/kitt": "^16.2.0",
-    "@ornikar/react-storybook": "^1.2.1",
     "@storybook/react": "^5.0.6",
     "prettier": "1.18.2",
     "react": "^16.8.6",
