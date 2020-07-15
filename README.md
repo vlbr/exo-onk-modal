@@ -37,8 +37,6 @@ _NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera 
 
 [Lien vers le design](https://www.figma.com/file/S9j3lzxmLImOp0R8RHX0pt/02---Kitt---Components?node-id=413%3A3)
 
-_NB: Il faut se faire un compte Invision pour pouvoir inspecter le projet_
-
 ### 🏯 Structure du Projet
 
 ```
