@@ -1,5 +1,10 @@
 @import "~@ornikar/kitt/dist/kitt-default.css";
 
+:root {
+  --breakpoint-sm: 0px;
+  --breakpoint-md: 768px;
+}
+
 @font-face {
   font-family: Geomanist;
   src: url("../fonts/geomanist/geomanist-medium-webfont.woff2") format("woff2"),
@@ -40,6 +45,7 @@ html {
   font-size: 10px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: slategray;
 }
 
 body {
