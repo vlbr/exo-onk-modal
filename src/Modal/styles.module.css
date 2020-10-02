@@ -1,0 +1,100 @@
+.Container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ModalContainer {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media screen and (min-width: 1024px) {
+  .ModalContainer {
+    height: 340px;
+    width: 500px;
+    min-height: unset;
+  }
+}
+
+.Header {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: brown;
+}
+
+@media screen and (min-width: 1024px) {
+  .Header {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.Content {
+  overflow-y: auto;
+  padding: 24px 16px;
+  width: 100%;
+
+  background-color: blueviolet;
+}
+
+.ContentHeader {
+  margin-top: 56px;
+}
+
+.ContentFooter {
+  margin-bottom: 124px;
+}
+
+@media screen and (min-width: 1024px) {
+  .ContentHeader {
+    margin-top: unset;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .ContentFooter {
+    margin-bottom: unset;
+  }
+}
+
+.Footer {
+  height: 124px;
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-color: goldenrod;
+}
+
+@media screen and (min-width: 1024px) {
+  .Footer {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.BackgroundFix {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
