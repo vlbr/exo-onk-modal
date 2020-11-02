@@ -35,7 +35,7 @@ _NB: Sauf composant déjà fait, on peut ajouter toutes librairies qu'on jugera 
 
 ### 👩‍🎨 Design
 
-[Lien vers le design](https://www.figma.com/file/S9j3lzxmLImOp0R8RHX0pt/02---Kitt---Components?node-id=413%3A3)
+[Lien vers le design](https://www.figma.com/file/1Q8TbLHkhkbJZw67kgdfKV/Kitt-Modal)
 
 ### 🏯 Structure du Projet
 
