@@ -1,0 +1,53 @@
+:root {
+  --color-white: #fff;
+}
+
+.frame {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-width: 480px;
+}
+
+.header {
+  padding: 8px;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.withAction {
+  padding-left: 8px;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 16px;
+  flex-grow: 2;
+  overflow-y: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
